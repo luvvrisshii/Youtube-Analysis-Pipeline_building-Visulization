@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "kind",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "etag",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "id",
+    "Type": "bigint",
+    "Comment": ""
+  },
+  {
+    "Name": "snippet_channelid",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "snippet_title",
+    "Type": "string",
+    "Comment": ""
+  },
+  {
+    "Name": "snippet_assignable",
+    "Type": "boolean",
+    "Comment": ""
+  }
+]
