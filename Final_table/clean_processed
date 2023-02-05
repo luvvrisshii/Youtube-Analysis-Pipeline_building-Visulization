@@ -1,0 +1,71 @@
+[
+  {
+    "Name": "video_id",
+    "Type": "string"
+  },
+  {
+    "Name": "trending_date",
+    "Type": "string"
+  },
+  {
+    "Name": "title",
+    "Type": "string"
+  },
+  {
+    "Name": "channel_title",
+    "Type": "string"
+  },
+  {
+    "Name": "category_id",
+    "Type": "bigint"
+  },
+  {
+    "Name": "publish_time",
+    "Type": "string"
+  },
+  {
+    "Name": "tags",
+    "Type": "string"
+  },
+  {
+    "Name": "views",
+    "Type": "bigint"
+  },
+  {
+    "Name": "likes",
+    "Type": "bigint"
+  },
+  {
+    "Name": "dislikes",
+    "Type": "bigint"
+  },
+  {
+    "Name": "comment_count",
+    "Type": "bigint"
+  },
+  {
+    "Name": "thumbnail_link",
+    "Type": "string"
+  },
+  {
+    "Name": "comments_disabled",
+    "Type": "boolean"
+  },
+  {
+    "Name": "ratings_disabled",
+    "Type": "boolean"
+  },
+  {
+    "Name": "video_error_or_removed",
+    "Type": "boolean"
+  },
+  {
+    "Name": "description",
+    "Type": "string"
+  },
+  {
+    "Name": "region",
+    "Type": "string",
+    "PartitionKey": "Partition (0)"
+  }
+]
