@@ -1,0 +1,23 @@
+#CSV
+
+aws s3 cp CAvideos.csv s3://youtube-analysis-raw-de-dev/youtube/raw-stats/region=ca/ 
+aws s3 cp DEvideos.csv s3://youtube-analysis-raw-de-dev/youtube/raw-stats/region=de/ 
+aws s3 cp FRvideos.csv s3://youtube-analysis-raw-de-dev/youtube/raw-stats/region=fr/ 
+aws s3 cp GBvideos.csv s3://youtube-analysis-raw-de-dev/youtube/raw-stats/region=gb/ 
+aws s3 cp INvideos.csv s3://youtube-analysis-raw-de-dev/youtube/raw-stats/region=in/ 
+aws s3 cp JPvideos.csv s3://youtube-analysis-raw-de-dev/youtube/raw-stats/region=jp/ 
+aws s3 cp KRvideos.csv s3://youtube-analysis-raw-de-dev/youtube/raw-stats/region=kr/ 
+aws s3 cp MXvideos.csv s3://youtube-analysis-raw-de-dev/youtube/raw-stats/region=mx/ 
+aws s3 cp RUvideos.csv s3://youtube-analysis-raw-de-dev/youtube/raw-stats/region=ru/ 
+aws s3 cp USvideos.csv s3://youtube-analysis-raw-de-dev/youtube/raw-stats/region=us/
+		
+	
+
+
+#JSON
+
+aws s3 cp . s3://youtube-analysis-raw-de-dev/youtube/raw-stats-refrence-data/ --recursive --exclude  "*" --include "*.json"
+
+
+
+##Make sure to change the Bucket name and key
