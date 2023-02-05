@@ -1,0 +1,95 @@
+[
+  {
+    "Name": "ratings_disabled",
+    "Type": "boolean"
+  },
+  {
+    "Name": "comments_disabled",
+    "Type": "boolean"
+  },
+  {
+    "Name": "snippet_title",
+    "Type": "string"
+  },
+  {
+    "Name": "trending_date",
+    "Type": "string"
+  },
+  {
+    "Name": "etag",
+    "Type": "string"
+  },
+  {
+    "Name": "video_id",
+    "Type": "string"
+  },
+  {
+    "Name": "category_id",
+    "Type": "bigint"
+  },
+  {
+    "Name": "thumbnail_link",
+    "Type": "string"
+  },
+  {
+    "Name": "snippet_assignable",
+    "Type": "boolean"
+  },
+  {
+    "Name": "kind",
+    "Type": "string"
+  },
+  {
+    "Name": "comment_count",
+    "Type": "bigint"
+  },
+  {
+    "Name": "likes",
+    "Type": "bigint"
+  },
+  {
+    "Name": "description",
+    "Type": "string"
+  },
+  {
+    "Name": "dislikes",
+    "Type": "bigint"
+  },
+  {
+    "Name": "views",
+    "Type": "bigint"
+  },
+  {
+    "Name": "channel_title",
+    "Type": "string"
+  },
+  {
+    "Name": "title",
+    "Type": "string"
+  },
+  {
+    "Name": "snippet_channelid",
+    "Type": "string"
+  },
+  {
+    "Name": "publish_time",
+    "Type": "string"
+  },
+  {
+    "Name": "tags",
+    "Type": "string"
+  },
+  {
+    "Name": "video_error_or_removed",
+    "Type": "boolean"
+  },
+  {
+    "Name": "id",
+    "Type": "bigint"
+  },
+  {
+    "Name": "region",
+    "Type": "string",
+    "PartitionKey": "Partition (0)"
+  }
+]
