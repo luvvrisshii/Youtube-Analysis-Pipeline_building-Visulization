@@ -1,6 +1,6 @@
 
 # YouTube ETL and Visulisation
-End to End Architecture created, ingesting data, performing various transformatins, pipeline creation and meaningful Dashboard created
+End to End Architecture created, ingesting data, performing various transformations, pipeline creation and meaningful Dashboard created
 
 
 
